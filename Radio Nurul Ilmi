@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radio Nurul Ilmi</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url(https://i.imgur.com/BbwwKDk.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    .logo {
+      margin-top: 50px;
+    }
+
+    .logo img {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .player {
+      margin-top: 30px;
+    }
+
+    audio {
+      width: 300px;
+      margin-top: 10px;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 20px;
+      text-shadow: 1px 1px 3px black;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="https://i.imgur.com/eXigUnL.jpeg" alt="Radio Logo">
+  </div>
+
+  <div class="title">Radio Nurul Ilmi - Streaming 24 Jam</div>
+
+  <div class="player">
+    <audio controls autoplay>
+      <source src="http://27.0.234.202:11042/stream" type="audio/mpeg">
+      Browser Anda tidak mendukung pemutar audio.
+    </audio>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Radio Nurul Ilmi</title>
+  <style>
+    body {
+      background: url('masjid.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: sans-serif;
+      text-align: center;
+      color: white;
+      margin: 0;
+      padding-top: 50px;
+    }
+    .logo img {
+      width: 200px;
+    }
+    audio {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.png" alt="Radio Nurul Ilmi">
+    <h1>Radio Nurul Ilmi</h1>
+    <p>Streaming Online 24 Jam – Kajian & Murottal</p>
+  </div>
+
+  <audio controls autoplay>
+    <source src="http://27.0.234.202:11042/stream" type="audio/mpeg">
+    Browser Anda tidak mendukung pemutar audio.
+  </audio>
+
+  <p>Jika pemutar tidak muncul, klik:
+    <a href="http://27.0.234.202:11042/stream" target="_blank" style="color: lightblue;">
+      Streaming Radio Nurul Ilmi
+    </a>
+  </p>
+</body>
+</html>
+
